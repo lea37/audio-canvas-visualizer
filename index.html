@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Audio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="player js-player" data-author="My Incredible Name" data-title="Song title">
+    <button class="js-player-button">Play</button>
+    <div class="player_infos js-player-infos"></div>
+    <div class="progress js-player-progress"></div>
+    <audio class="js-player-source" preload="auto">
+      <source src="audio/moderat.mp3">
+    </audio>
+  </div>
+  <script src="./js/main.js" type="module"></script>
+</body>
+</html>
